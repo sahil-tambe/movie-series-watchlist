@@ -1,0 +1,15 @@
+{
+  "name": "movie-series-watchlist",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-server"
+      ]
+    }
+  },
+  "forwardPorts": [8000, 8080],
+  "postCreateCommand": "echo 'Codespace ready. Open index.html or run Live Server.'"
+}
